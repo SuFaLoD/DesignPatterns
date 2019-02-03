@@ -1,6 +1,7 @@
-package com.example.statepattern.state;
+package app.android.ir.pattern.state.state;
 
-import com.example.statepattern.state.model.Guest;
+
+import app.android.ir.pattern.state.state.model.Guest;
 
 public class UserStatus {
     private State currentState;

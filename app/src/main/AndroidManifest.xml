@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.statepattern">
+    package="app.android.ir.pattern">
 
     <application
         android:allowBackup="true"
@@ -12,8 +11,11 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <category android:name="android.intent.category.BROWSABLE"/>
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
             </intent-filter>
         </activity>
     </application>

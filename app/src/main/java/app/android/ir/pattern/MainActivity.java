@@ -1,10 +1,13 @@
-package com.example.statepattern;
+package app.android.ir.pattern;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-import com.example.statepattern.state.UserStatus;
+import app.android.ir.pattern.state.Presenter;
+import app.android.ir.pattern.state.PresenterImpl;
+import app.android.ir.pattern.state.state.UserStatus;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,5 +32,12 @@ public class MainActivity extends AppCompatActivity {
             UserStatusHelper.pullMeDown();
             myPresenter.myStrategyTextPrinter(UserStatusHelper.getCurrentState(), textView);
         });
+
+
+//        AlarmManager alarmMgr = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+//        PendingIntent pendingIntent =
+//                PendingIntent.getBroadcast(this, 0, new Intent(this
+//                          ,AlarmReceiver.class), 0);
+//        alarmMgr.s;
     }
 }

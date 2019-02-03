@@ -1,8 +1,8 @@
-package com.example.statepattern;
+package app.android.ir.pattern.state;
 
 import android.widget.TextView;
 
-import com.example.statepattern.state.State;
+import app.android.ir.pattern.state.state.State;
 
 public class PresenterImpl implements Presenter {
     @Override

@@ -1,10 +1,10 @@
-package com.example.statepattern.state.model;
+package app.android.ir.pattern.state.state.model;
 
 import android.util.Log;
 import android.widget.TextView;
 
-import com.example.statepattern.state.UserStatus;
-import com.example.statepattern.state.State;
+import app.android.ir.pattern.state.state.State;
+import app.android.ir.pattern.state.state.UserStatus;
 
 public class Guest implements State {
 
